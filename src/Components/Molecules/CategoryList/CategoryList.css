@@ -1,0 +1,9 @@
+
+.category_list{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: center;
+   overflow-y: auto;
+   max-height: 25rem;
+}

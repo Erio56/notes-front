@@ -1,0 +1,49 @@
+.custom_select {
+   appearance: none;
+   background: none;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   border-radius: 3rem;
+   display: flex;
+   align-items: center;
+   font-size: larger;
+   gap: 0.2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   border: transparent solid 2px;
+}
+
+.custom_select_wrapper {
+   position: relative;
+   display: inline-block;
+   width: 200px;
+}
+
+.custom-select-wrapper::after {
+   position: absolute;
+   top: 50%;
+   right: 1rem;
+   pointer-events: none;
+}
+
+.custom_select_wrapper select {
+   background-color: #ffe8e8;
+   border: 2px solid #000000;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.custom_select_wrapper select:hover,
+.custom_select_wrapper select:focus {
+   border-color: #888888;
+}
+
+.custom_select_wrapper select option {
+   font-size: larger;      
+   background-color: #ffe8e8;
+   color: #000000;
+   padding: 0.5rem;
+}

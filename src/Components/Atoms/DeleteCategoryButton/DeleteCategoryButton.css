@@ -1,0 +1,11 @@
+.delete_category_button{
+   border-radius: 100%;
+   background-color: #ffa7a7;
+   border: none;
+   height: 1.7rem;
+   width: 1.7rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 50;
+}

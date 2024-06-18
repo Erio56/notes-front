@@ -1,0 +1,22 @@
+
+.category_chip {
+   display: inline-flex;
+   padding: 0 15px;
+   height: 30px;
+   font-size: 16px;
+   border-radius: 25px;
+   max-width: 5rem;
+   align-items: center;
+   user-select: none;
+   background-color: #ffe054;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.category_chip p {
+   text-overflow: ellipsis;
+   font-size: smaller;
+   font-weight: bolder;
+   white-space: nowrap;
+   overflow: hidden; 
+}

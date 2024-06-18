@@ -1,0 +1,9 @@
+.category_input {
+   background-color: rgb(227, 227, 227);
+   border: none;
+   outline: none;
+   border-radius: 30px;
+   padding: 1rem;
+   font-size: large;
+   font-weight: 400;
+}

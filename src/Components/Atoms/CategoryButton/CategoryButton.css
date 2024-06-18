@@ -1,0 +1,9 @@
+.category_button{
+   background-color: #ffbd6c;
+   border: none;
+   font-size: larger;
+   border-radius: 30px;
+   padding: 1rem 2rem 1rem 2rem;
+   margin-left: 1rem;
+   font-weight: bold;
+}

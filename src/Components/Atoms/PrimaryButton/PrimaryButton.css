@@ -1,0 +1,17 @@
+
+.primary_button{
+   border-radius: 3rem;
+   display: flex;
+   align-items: center;
+   font-size: larger;
+   gap: 0.2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border: transparent solid 2px;
+}
+
+.primary_button:active{
+   border: solid 2px;
+}

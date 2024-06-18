@@ -1,0 +1,27 @@
+.note_list_container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   justify-content: center;
+}
+
+.create_note_button_wraper{
+   height: auto;
+   display: flex;
+}
+
+.note_toolbar {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+   gap: 2rem;
+   align-content: center;
+}
+
+.note_filter {
+   font-size: x-large;
+   align-self: center;
+   font-weight: bolder;
+}

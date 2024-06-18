@@ -1,0 +1,11 @@
+
+.category_modal_button{
+   position: relative;
+   right: 1rem;
+   top: 1rem;
+   background-color: rgb(255, 255, 255);
+   border-radius: 100px;
+   height: fit-content;
+   display: flex;
+   padding: 0.4rem;
+}
